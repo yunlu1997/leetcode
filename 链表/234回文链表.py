@@ -45,4 +45,34 @@ class Solution:
             move_ = move_.next
         return True
 
+"""
+先反转链表再比较
+实现空间复杂度o(1)
+"""
+class Solution:
+    def isPalindrome(self, head: ListNode) -> ListNode:
+    # 通过快慢指针，先找到中间的节点
+        fast = head
+        slow = head
+        while fast and fast.next:
+           fast = fast.next.next
+           slow = slow.next
+        if fast:    # 链表节点数为奇数时，slow还要再移动一位
+           slow = slow.next
 
+        # 从slow开始翻转链表,参考 206反转链表
+        pre = None
+        cur = slow
+        while cur:
+           temp = cur.next
+           cur.next = pre
+           pre = cur
+           cur = temp
+
+        # 从head 和 pre开始向后检查
+        while pre:
+            if head.val != pre.val:
+                return False
+            pre = pre.next
+            head = head.next
+        return True

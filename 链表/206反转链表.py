@@ -12,11 +12,12 @@
 
 class Solution:
     def reverseList(self, head: ListNode) -> ListNode:
-        res = None
+        pre = None
         cur = head
         while cur:
             temp = cur.next
-            cur.next = res  # 指针指向结果链表
-            res = cur       # 进行局部交换
+            cur.next = pre  # 指针指向结果链表
+            pre = cur       # 进行局部交换
             cur = temp      # 右移cur
-        return res
+        return pre
+
