@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee9cd4da-0537-4ed0-bfbe-f98432369147" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/链表/141环形链表.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/树/104二叉树的最大深度.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,17 +79,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/链表/234回文链表.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
+            <state relative-caret-position="1159">
               <caret line="61" selection-start-line="61" selection-end-line="61" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/链表/141环形链表.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="53" selection-start-line="53" selection-end-line="61" selection-end-column="20" />
+            <state relative-caret-position="658">
+              <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/树/104二叉树的最大深度.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="582">
+              <caret line="32" column="48" lean-forward="true" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -134,6 +143,7 @@
         <option value="$PROJECT_DIR$/链表/206反转链表.py" />
         <option value="$PROJECT_DIR$/链表/234回文链表.py" />
         <option value="$PROJECT_DIR$/链表/141环形链表.py" />
+        <option value="$PROJECT_DIR$/树/104二叉树的最大深度.py" />
       </list>
     </option>
   </component>
@@ -149,6 +159,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,13 +170,17 @@
             <path>
               <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="树" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
               <item name="链表" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -357,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590046575545</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="20.5.22">
+      <created>1590150741204</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1590150741204</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -395,7 +417,8 @@
     <MESSAGE value="20.5.19" />
     <MESSAGE value="20.5.20" />
     <MESSAGE value="20.5.21" />
-    <option name="LAST_COMMIT_MESSAGE" value="20.5.21" />
+    <MESSAGE value="20.5.22" />
+    <option name="LAST_COMMIT_MESSAGE" value="20.5.22" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/136只出现一次的数字.py" />
@@ -461,15 +484,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/链表/234回文链表.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
+        <state relative-caret-position="1159">
           <caret line="61" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/链表/141环形链表.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="53" selection-start-line="53" selection-end-line="61" selection-end-column="20" />
+        <state relative-caret-position="658">
+          <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/树/104二叉树的最大深度.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="32" column="48" lean-forward="true" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
         </state>
       </provider>
     </entry>
