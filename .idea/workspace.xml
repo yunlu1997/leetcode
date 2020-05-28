@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee9cd4da-0537-4ed0-bfbe-f98432369147" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/树/108.将有序数组转换为二叉搜索树.py" afterDir="false" />
+    <list default="true" id="ee9cd4da-0537-4ed0-bfbe-f98432369147" name="Default Changelist" comment="20.5.27">
+      <change afterPath="$PROJECT_DIR$/排序和搜索/88合并两个有序数组.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,15 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/字符串/28实现 strStr().py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" selection-start-line="24" selection-end-line="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/字符串/38外观数列.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -88,17 +79,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/树/102二叉树的层序遍历.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
+            <state relative-caret-position="513">
               <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/树/108.将有序数组转换为二叉搜索树.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" selection-start-line="18" selection-end-line="30" />
+            <state relative-caret-position="437">
+              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/排序和搜索/88合并两个有序数组.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="43" selection-start-line="43" selection-end-line="65" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -147,6 +147,7 @@
         <option value="$PROJECT_DIR$/树/101对称二叉树.py" />
         <option value="$PROJECT_DIR$/树/102二叉树的层序遍历.py" />
         <option value="$PROJECT_DIR$/树/108.将有序数组转换为二叉搜索树.py" />
+        <option value="$PROJECT_DIR$/排序和搜索/88合并两个有序数组.py" />
       </list>
     </option>
   </component>
@@ -162,6 +163,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,23 +174,12 @@
             <path>
               <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="数组" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="树" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="链表" type="462c0819:PsiDirectoryNode" />
+              <item name="排序和搜索" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -422,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590483160967</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="20.5.27">
+      <created>1590553614681</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1590553614681</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -465,7 +463,8 @@
     <MESSAGE value="20.5.24" />
     <MESSAGE value="20.5.25" />
     <MESSAGE value="20.5.26" />
-    <option name="LAST_COMMIT_MESSAGE" value="20.5.26" />
+    <MESSAGE value="20.5.27" />
+    <option name="LAST_COMMIT_MESSAGE" value="20.5.27" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/136只出现一次的数字.py" />
@@ -566,15 +565,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/树/102二叉树的层序遍历.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
+        <state relative-caret-position="513">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/树/108.将有序数组转换为二叉搜索树.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" selection-start-line="18" selection-end-line="30" />
+        <state relative-caret-position="437">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/排序和搜索/88合并两个有序数组.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="43" selection-start-line="43" selection-end-line="65" selection-end-column="38" />
         </state>
       </provider>
     </entry>
