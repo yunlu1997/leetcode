@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee9cd4da-0537-4ed0-bfbe-f98432369147" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/数学/326_3的幂.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数学/13罗马数字转整数.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,15 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/排序和搜索/278第一个错误的版本.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/动态规划/70爬楼梯.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -61,17 +52,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/设计题/384打乱数组.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
+            <state relative-caret-position="285">
               <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/数学/326_3的幂.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="582">
-              <caret line="53" selection-start-line="53" selection-end-line="58" />
+            <state relative-caret-position="430">
+              <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/数学/13罗马数字转整数.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="45" selection-start-line="45" selection-end-line="61" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -159,6 +159,7 @@
         <option value="$PROJECT_DIR$/数学/422FizzBuzz.py" />
         <option value="$PROJECT_DIR$/数学/204记数质数.py" />
         <option value="$PROJECT_DIR$/数学/326_3的幂.py" />
+        <option value="$PROJECT_DIR$/数学/13罗马数字转整数.py" />
       </list>
     </option>
   </component>
@@ -174,6 +175,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,7 +202,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -533,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591414983118</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="20.6.7">
+      <created>1591510177942</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1591510177943</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -560,7 +568,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20.5.10" />
     <MESSAGE value="20.5.11" />
     <MESSAGE value="20.5.12" />
     <MESSAGE value="20.5.15" />
@@ -585,7 +592,8 @@
     <MESSAGE value="20.6.4" />
     <MESSAGE value="20.6.5" />
     <MESSAGE value="20.6.6" />
-    <option name="LAST_COMMIT_MESSAGE" value="20.6.6" />
+    <MESSAGE value="20.6.7" />
+    <option name="LAST_COMMIT_MESSAGE" value="20.6.7" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/136只出现一次的数字.py" />
@@ -740,6 +748,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/设计题/384打乱数组.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/设计题/155最小栈.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1083">
@@ -761,17 +776,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/设计题/384打乱数组.py">
+    <entry file="file://$PROJECT_DIR$/数学/326_3的幂.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="430">
+          <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数学/326_3的幂.py">
+    <entry file="file://$PROJECT_DIR$/数学/13罗马数字转整数.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="53" selection-start-line="53" selection-end-line="58" />
+        <state relative-caret-position="378">
+          <caret line="45" selection-start-line="45" selection-end-line="61" selection-end-column="18" />
         </state>
       </provider>
     </entry>
