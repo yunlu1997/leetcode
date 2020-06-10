@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee9cd4da-0537-4ed0-bfbe-f98432369147" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/其他/191位1的个数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/其他/461汉明距离.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,15 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/动态规划/121买卖股票的最佳时机.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/动态规划/53最大子序和">
           <provider selected="true" editor-type-id="text-editor">
@@ -61,17 +52,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/数学/13罗马数字转整数.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
+            <state relative-caret-position="722">
               <caret line="38" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/其他/191位1的个数.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+            <state relative-caret-position="716">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/其他/461汉明距离.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -161,6 +161,7 @@
         <option value="$PROJECT_DIR$/数学/326_3的幂.py" />
         <option value="$PROJECT_DIR$/数学/13罗马数字转整数.py" />
         <option value="$PROJECT_DIR$/其他/191位1的个数.py" />
+        <option value="$PROJECT_DIR$/其他/461汉明距离.py" />
       </list>
     </option>
   </component>
@@ -176,7 +177,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,6 +208,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -554,7 +555,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591586567235</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="20.6.9">
+      <created>1591695800066</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1591695800066</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -581,7 +589,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20.5.12" />
     <MESSAGE value="20.5.15" />
     <MESSAGE value="20.5.17" />
     <MESSAGE value="20.5.18" />
@@ -606,7 +613,8 @@
     <MESSAGE value="20.6.6" />
     <MESSAGE value="20.6.7" />
     <MESSAGE value="20.6.8" />
-    <option name="LAST_COMMIT_MESSAGE" value="20.6.8" />
+    <MESSAGE value="20.6.9" />
+    <option name="LAST_COMMIT_MESSAGE" value="20.6.9" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/136只出现一次的数字.py" />
@@ -775,6 +783,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/数学/13罗马数字转整数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/设计题/155最小栈.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1083">
@@ -796,17 +811,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数学/13罗马数字转整数.py">
+    <entry file="file://$PROJECT_DIR$/其他/191位1的个数.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="716">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/其他/191位1的个数.py">
+    <entry file="file://$PROJECT_DIR$/其他/461汉明距离.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+        <state relative-caret-position="285">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
