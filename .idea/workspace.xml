@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee9cd4da-0537-4ed0-bfbe-f98432369147" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/数组/169多数元素.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数组/240搜索二维矩阵II.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,15 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/其他/190颠倒二进制位.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1161">
-              <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/其他/118帕斯卡三角形.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -70,11 +61,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/数组/169多数元素.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+            <state relative-caret-position="27">
+              <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/数组/240搜索二维矩阵II.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="22" selection-start-line="22" selection-end-line="33" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -122,7 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/合并两个有序链表21.py" />
         <option value="$PROJECT_DIR$/21合并两个有序链表.py" />
         <option value="$PROJECT_DIR$/删除排序数组中的重复项.py" />
         <option value="$PROJECT_DIR$/26删除排序数组中的重复项.py" />
@@ -173,6 +172,7 @@
         <option value="$PROJECT_DIR$/其他/20有效的括号.py" />
         <option value="$PROJECT_DIR$/其他/268缺失数字.py" />
         <option value="$PROJECT_DIR$/数组/169多数元素.py" />
+        <option value="$PROJECT_DIR$/数组/240搜索二维矩阵II.py" />
       </list>
     </option>
   </component>
@@ -629,7 +629,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596445881551</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="20.8.4">
+      <created>1596538868149</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1596538868149</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -656,7 +663,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20.5.21" />
     <MESSAGE value="20.5.22" />
     <MESSAGE value="20.5.23" />
     <MESSAGE value="20.5.24" />
@@ -681,7 +687,8 @@
     <MESSAGE value="20.6.12" />
     <MESSAGE value="20.6.17" />
     <MESSAGE value="20.8.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="20.8.3" />
+    <MESSAGE value="20.8.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="20.8.4" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/136只出现一次的数字.py" />
@@ -937,8 +944,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/数组/169多数元素.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        <state relative-caret-position="27">
+          <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数组/240搜索二维矩阵II.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="22" selection-start-line="22" selection-end-line="33" selection-end-column="20" />
         </state>
       </provider>
     </entry>
