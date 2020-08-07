@@ -42,4 +42,18 @@ class Solution:
         tmp = re.sub(r"[^a-zA-Z0-9]", "", s).lower()
         return tmp == tmp[::-1]
 
+"""
+类似的思想，但不用正则
+"""
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+        s_ = []
+        i = len(s)-1
+        while i >= 0:
+           char = s[i]
+           if char.isalnum():
+               s_.append(char.lower())
+           i-=1
+        return s_ == s_[::-1]
+
 
